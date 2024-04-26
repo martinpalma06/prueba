@@ -1,0 +1,55 @@
+/* Estilos para el menú */
+nav ul {
+    list-style-type: lower-alpha ;
+    margin: 5;
+    padding: 5;
+}
+
+nav ul li:first-child a {
+    font-weight: bold;
+}
+
+nav ul li:last-child a {
+    font-style: italic;
+}
+
+/* Estilos para elementos dentro de una sección */
+section * {
+    color: rgb(255, 0, 0);
+}
+
+/* Estilos para span directamente dentro de un div */
+div > span {
+    font-size: 25px;
+    color: orange;
+}
+
+/* Estilos para párrafos hermanos de títulos h1 */
+h1 + p {
+    background-color: lightgray;
+}
+
+/* Estilos para enlaces con clases .cl y .com */
+a.cl,
+a.com {
+    font-weight: bold;
+}
+
+/* Estilos para enlaces al pasar el mouse */
+a:hover {
+    color: red; /* Cambia el color al pasar el mouse */
+}
+
+a:visited {
+    color: purple; /* Cambia el color cuando el enlace ha sido visitado */
+}
+
+/* Estilos para un div con color de fuente verde */
+div:nth-of-type(odd) {
+    color: green;
+}
+
+/* Estilos para hacer un párrafo no seleccionable */
+.no-select {
+    user-select: none;
+}
